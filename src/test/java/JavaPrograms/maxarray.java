@@ -70,6 +70,16 @@ public class maxarray {
 		int[] result=maximunOf(num1);
 		Assert.assertEquals(result, expected);
 	}
+	
+	@Test
+	public void testrun5()
+	{
+		int[] num1= {0,7,95,60,};
+		int[] expected= {95,60,7,0};
+		int[] result=maximunOf(num1);
+		Assert.assertEquals(result, expected);
+	}
+
 
 
 }

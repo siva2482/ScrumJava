@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-19T20:55:02 CST" name="Default suite" finished-at="2022-12-19T20:55:02 CST" duration-ms="90">
+  <suite started-at="2022-12-20T12:08:47 CST" name="Default suite" finished-at="2022-12-20T12:08:47 CST" duration-ms="64">
     <groups>
     </groups>
-    <test started-at="2022-12-19T20:55:02 CST" name="Default test" finished-at="2022-12-19T20:55:02 CST" duration-ms="90">
-      <class name="JavaPrograms.mathCal">
-        <test-method signature="run1()[pri:0, instance:JavaPrograms.mathCal@1b7cc17c]" started-at="2022-12-19T20:55:02 CST" name="run1" finished-at="2022-12-19T20:55:02 CST" duration-ms="13" status="PASS">
+    <test started-at="2022-12-20T12:08:47 CST" name="Default test" finished-at="2022-12-20T12:08:47 CST" duration-ms="64">
+      <class name="JavaPrograms.multipleMap">
+        <test-method signature="run1()[pri:0, instance:JavaPrograms.multipleMap@9597028]" started-at="2022-12-20T12:08:47 CST" name="run1" finished-at="2022-12-20T12:08:47 CST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run1 -->
-        <test-method signature="run2()[pri:0, instance:JavaPrograms.mathCal@1b7cc17c]" started-at="2022-12-19T20:55:02 CST" name="run2" finished-at="2022-12-19T20:55:02 CST" duration-ms="3" status="PASS">
+        <test-method signature="run2()[pri:0, instance:JavaPrograms.multipleMap@9597028]" started-at="2022-12-20T12:08:47 CST" name="run2" finished-at="2022-12-20T12:08:47 CST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run2 -->
-        <test-method signature="run3()[pri:0, instance:JavaPrograms.mathCal@1b7cc17c]" started-at="2022-12-19T20:55:02 CST" name="run3" finished-at="2022-12-19T20:55:02 CST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run3 -->
-        <test-method signature="run4()[pri:0, instance:JavaPrograms.mathCal@1b7cc17c]" started-at="2022-12-19T20:55:02 CST" name="run4" finished-at="2022-12-19T20:55:02 CST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run4 -->
-        <test-method signature="run5()[pri:0, instance:JavaPrograms.mathCal@1b7cc17c]" started-at="2022-12-19T20:55:02 CST" name="run5" finished-at="2022-12-19T20:55:02 CST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run5 -->
-      </class> <!-- JavaPrograms.mathCal -->
+      </class> <!-- JavaPrograms.multipleMap -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
