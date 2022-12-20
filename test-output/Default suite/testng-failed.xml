@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaPrograms.EvenOdd">
+      <class name="JavaPrograms.maxarray">
         <methods>
           <include name="testrun"/>
         </methods>
-      </class> <!-- JavaPrograms.EvenOdd -->
+      </class> <!-- JavaPrograms.maxarray -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

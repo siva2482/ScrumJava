@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-19T17:06:01 CST" name="Default suite" finished-at="2022-12-19T17:06:01 CST" duration-ms="73">
+  <suite started-at="2022-12-19T18:51:47 CST" name="Default suite" finished-at="2022-12-19T18:51:47 CST" duration-ms="88">
     <groups>
     </groups>
-    <test started-at="2022-12-19T17:06:01 CST" name="Default test" finished-at="2022-12-19T17:06:01 CST" duration-ms="73">
-      <class name="JavaPrograms.EvenOdd">
-        <test-method signature="testrun()[pri:0, instance:JavaPrograms.EvenOdd@9597028]" started-at="2022-12-19T17:06:01 CST" name="testrun" finished-at="2022-12-19T17:06:01 CST" duration-ms="22" status="PASS">
+    <test started-at="2022-12-19T18:51:47 CST" name="Default test" finished-at="2022-12-19T18:51:47 CST" duration-ms="88">
+      <class name="JavaPrograms.maxarray">
+        <test-method signature="run1()[pri:0, instance:JavaPrograms.maxarray@1b7cc17c]" started-at="2022-12-19T18:51:47 CST" name="run1" finished-at="2022-12-19T18:51:47 CST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testrun -->
-        <test-method signature="testrun1()[pri:0, instance:JavaPrograms.EvenOdd@9597028]" started-at="2022-12-19T17:06:01 CST" name="testrun1" finished-at="2022-12-19T17:06:01 CST" duration-ms="0" status="PASS">
+        </test-method> <!-- run1 -->
+        <test-method signature="testrun2()[pri:0, instance:JavaPrograms.maxarray@1b7cc17c]" started-at="2022-12-19T18:51:47 CST" name="testrun2" finished-at="2022-12-19T18:51:47 CST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testrun1 -->
-      </class> <!-- JavaPrograms.EvenOdd -->
+        </test-method> <!-- testrun2 -->
+        <test-method signature="testrun3()[pri:0, instance:JavaPrograms.maxarray@1b7cc17c]" started-at="2022-12-19T18:51:47 CST" name="testrun3" finished-at="2022-12-19T18:51:47 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testrun3 -->
+        <test-method signature="testrun4()[pri:0, instance:JavaPrograms.maxarray@1b7cc17c]" started-at="2022-12-19T18:51:47 CST" name="testrun4" finished-at="2022-12-19T18:51:47 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testrun4 -->
+      </class> <!-- JavaPrograms.maxarray -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
