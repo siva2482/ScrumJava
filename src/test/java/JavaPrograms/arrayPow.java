@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 public class arrayPow {
 	
-	public static double max_pow=0;
+	public static double max_pow=0.0;
 	public static int[] max_arr=new int[3];
 	static int count=0;
 	public static void maxpow(int[] num)
@@ -51,6 +52,8 @@ public class arrayPow {
 	public void run1()
 	{
 		int[] num= {2,1,3};
+		int [] expected= {1,2,3};
+		double exp=9.0;
 		while(count<=3)
 		{
 			for(int i=0;i<num.length-1;i++)
@@ -60,6 +63,8 @@ public class arrayPow {
 			}
 			
 		}
+		Assert.assertArrayEquals(expected,max_arr);
+		Assert.assertEquals((int)exp, (int)max_pow);
 		System.out.println("MAXIMUN POWER: "+max_pow);
 		System.out.println("FOR PERMUTATION: "+Arrays.toString(max_arr));
 
@@ -72,6 +77,8 @@ public class arrayPow {
 	{
 		int j=0;
 		int[] ARR= {4,5,6};
+		int [] expected= {6,5,4};
+		double exp=15625.0;
 		while(j<=3)
 		{
 			for(int i=0;i<ARR.length-1;i++)
@@ -81,6 +88,8 @@ public class arrayPow {
 			}
 			
 		}
+		Assert.assertArrayEquals(expected,max_arr);
+		Assert.assertEquals((int)exp,(int) max_pow);
 		System.out.println("MAXIMUN POWER: "+max_pow);
 		System.out.println("FOR PERMUTATION: "+Arrays.toString(max_arr));
 }
